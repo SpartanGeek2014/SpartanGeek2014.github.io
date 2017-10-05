@@ -1,0 +1,21 @@
+# Site settings
+title: My Journey Into Software Engineering
+header-img: img/home-bg.png
+email: sb.mgonzalez1@gmail.com
+copyright_name: SpartanGeek2014
+description: > # this means to ignore newlines until "baseurl:"
+  What It Took and How I Did It
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  SpartanGeek2014
+learn_profile: SpartanGeek2014
+email_username: sb.mgonzalez1@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
